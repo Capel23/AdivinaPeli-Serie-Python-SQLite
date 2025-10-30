@@ -38,7 +38,7 @@ class App(tk.Tk):
             messagebox.showwarning("Atención", "Debes introducir un nombre para jugar.", parent=self)
             return
 
-        # Obtener todas las películas/series y barajar
+    
         items = self.get_all_items()
         if not items:
             messagebox.showwarning("Sin datos", "No hay películas o series en la base de datos.", parent=self)
