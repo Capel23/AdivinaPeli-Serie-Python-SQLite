@@ -2,9 +2,9 @@ from db import init_db, add_item
 
 
 def cargar_datos():
-    init_db()  # Crea la BD si no existe
+    init_db()
 
-    # ----- SERIES -----
+   
     add_item(
         title="Vikings",
         type_="serie",
