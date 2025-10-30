@@ -7,7 +7,7 @@ import random
 TOTAL_POINTS = 30
 TOTAL_ROUNDS = 10
 HINT_COST = 2
-POINTS_BONUS_ROUND = 2  # puntos recuperados al pasar de ronda
+POINTS_BONUS_ROUND = 2
 
 class App(tk.Tk):
     def __init__(self):
